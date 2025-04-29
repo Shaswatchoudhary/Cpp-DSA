@@ -4,7 +4,7 @@ using namespace std;
 //printig pattern
 int main()
 {
-int i,j,row;
+int i,j,row,col;
 
 // for(i=1;i<=5;i++) using this we have printed 1 row of pattern
 // {
@@ -47,14 +47,14 @@ int i,j,row;
 
 // now we have to print 1 2 3 4 5 for 5 times 
 
-// for(row=1;row<=5;row++)
-// {
-//     for(col=5;col>=1;col--)
-//     {
-//         cout<<col<<" ";
-//     }
-//     cout<<endl;
-// }
+for(row=1;row<=5;row++)
+{
+    for(col=5;col>=1;col--)
+    {
+        cout<<"*"<<" ";
+    }
+    cout<<endl;
+}
 
 // printing pattern of alphabet a to e for 5 times
 // char name='a';
@@ -68,7 +68,7 @@ int i,j,row;
 //     cout<<endl;
 // }
 
-char col;
+//char col;
 for(row='a';row<='e';row++)
 {
     for(col='a';col<='e';col++)// in this for it only print a b c d e for one time and the other for prints it 5 times 
