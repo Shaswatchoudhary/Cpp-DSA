@@ -112,21 +112,29 @@ int main()
     //     cout<<endl;
     // }
 
-    for(row=1;row<=4;row++)// first method  //task 3
+    // for(row=1;row<=4;row++)// first method  //task 3
+    // {
+    //     char name='A';
+    //     for(col=4;col>=row;col--)//decrement
+    //     {
+    //         cout<<name++<<" ";// name++ is used to print the next alphabet 
+    //     }
+    //     cout<<endl;
+    // }
+    // for(row=1;row<=4;row++)// first method  //task 3
+    // {
+    //     char name='A';
+    //     for(col=4;col>=row;col--)//decrement
+    //     {
+    //         cout<<name++<<" ";// name++ is used to print the next alphabet 
+    //     }
+    //     cout<<endl;
+    // }
+    for(row=1;row<=6;row++)
     {
-        char name='A';
-        for(col=4;col>=row;col--)//decrement
+        for(col=1;col<=6-row;col++)
         {
-            cout<<name++<<" ";// name++ is used to print the next alphabet 
-        }
-        cout<<endl;
-    }
-    for(row=1;row<=4;row++)// first method  //task 3
-    {
-        char name='A';
-        for(col=4;col>=row;col--)//decrement
-        {
-            cout<<name++<<" ";// name++ is used to print the next alphabet 
+            cout<<"*"<<" ";
         }
         cout<<endl;
     }

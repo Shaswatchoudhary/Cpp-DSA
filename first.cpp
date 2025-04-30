@@ -14,11 +14,11 @@ int main() {
     //Write a program to output the 
     // squares (using multiplication) of
     //  numbers from 1 to 5 on separate lines
-    //cout<<"1"<<" "<<1*1<<endl;
-    //cout<<"2"<<" "<<2*2<<endl;
-    //cout<<"3"<<" "<<3*3<<endl;
-    //cout<<"4"<<" "<<4*4<<endl;
-    //cout<<"5"<<" "<<5*5<<endl;
+    cout<<"1"<<" "<<1*1<<endl;
+    cout<<"2"<<" "<<2*2<<endl;
+    cout<<"3"<<" "<<3*3<<endl;
+    cout<<"4"<<" "<<4*4<<endl;
+    cout<<"5"<<" "<<5*5<<endl;
 
     // variable declare 4 bytes 
     // int a=10, b=20 , c=30 , d=50;   
