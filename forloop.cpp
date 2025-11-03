@@ -124,7 +124,7 @@ else {
     for(i=2;i<n;i++) // why we have taken i=2;  because we have already taken last=0; prev=1; curr=1;
     {
         curr=last+prev;
-        last=prev;
+        last=prev;œ
         prev=curr;
     }
     cout<<curr;
